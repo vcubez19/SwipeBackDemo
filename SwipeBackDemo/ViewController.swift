@@ -20,7 +20,7 @@ final class ViewController: UIViewController {
         
         
         /*
-         Uncomment and make the storyboard's navigationController only a default UINavigationController to test this solution
+         Uncomment self.addSwipeBack() and make the storyboard's navigationController only a default UINavigationController to test this solution
          */
         // Call function from extension
         //self.addSwipeBack()
