@@ -15,6 +15,7 @@
 		32AB4A3A2740FD1B0083E4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AB4A382740FD1B0083E4AB /* LaunchScreen.storyboard */; };
 		32AB4A452740FD1B0083E4AB /* SwipeBackDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB4A442740FD1B0083E4AB /* SwipeBackDemoTests.swift */; };
 		32AB4A502740FD1C0083E4AB /* SwipeBackDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB4A4F2740FD1C0083E4AB /* SwipeBackDemoUITests.swift */; };
+		32AB4A69274107B00083E4AB /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB4A68274107B00083E4AB /* CustomNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		32AB4A4B2740FD1C0083E4AB /* SwipeBackDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeBackDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AB4A4F2740FD1C0083E4AB /* SwipeBackDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeBackDemoUITests.swift; sourceTree = "<group>"; };
 		32AB4A512740FD1C0083E4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AB4A68274107B00083E4AB /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		32AB4A2C2740FD100083E4AB /* SwipeBackDemo */ = {
 			isa = PBXGroup;
 			children = (
+				32AB4A6D274108980083E4AB /* Custom swipe back */,
 				32AB4A2D2740FD100083E4AB /* AppDelegate.swift */,
 				32AB4A2F2740FD100083E4AB /* SceneDelegate.swift */,
 				32AB4A312740FD100083E4AB /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				32AB4A512740FD1C0083E4AB /* Info.plist */,
 			);
 			path = SwipeBackDemoUITests;
+			sourceTree = "<group>";
+		};
+		32AB4A6D274108980083E4AB /* Custom swipe back */ = {
+			isa = PBXGroup;
+			children = (
+				32AB4A68274107B00083E4AB /* CustomNavigationController.swift */,
+			);
+			path = "Custom swipe back";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AB4A69274107B00083E4AB /* CustomNavigationController.swift in Sources */,
 				32AB4A322740FD100083E4AB /* ViewController.swift in Sources */,
 				32AB4A2E2740FD100083E4AB /* AppDelegate.swift in Sources */,
 				32AB4A302740FD100083E4AB /* SceneDelegate.swift in Sources */,
